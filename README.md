@@ -13,7 +13,7 @@
  
 
   if($_GET['city']){
-    $urlContents= file_get_contents("https://api.openweathermap.org/data/2.5/weather?q=".$_GET['city']."&appid=b6aa69f2677aeb08cc3c3236adb8c967");
+    $urlContents= file_get_contents("https://api.openweathermap.org/data/2.5/weather?q=".$_GET['city']."&appid=Your api id");
     //convert into array.
     $weatherArray=json_decode($urlContents,true);
     // print_r($weatherArray);
@@ -32,4 +32,4 @@
 - If code =200 is check condition for city name is correct or not.
 - If yes then for that city we take info of  weather descriotion,temperature,and speed if you can add or extract more info also refer <a href="https://openweathermap.org/current">More...</a>
 - If city could not found then error message appears.
-## For complete source code <a href="https://github.com/kr123Manish/weather_scrapper/tree/main/code">click here..</a>
+## For complete source code <a href="https://github.com/kr123Manish/weather_scrapper/tree/main/code">click here...</a>
