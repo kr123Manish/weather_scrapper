@@ -1,4 +1,4 @@
-# <a href="http://weather-info-com.stackstaging.com/">Overview</a>
+<!-- # <a href="http://weather-info-com.stackstaging.com/">Overview</a> -->
 ### - Here I make a web app using <a href="https://openweathermap.org/api">Weather API</a> which give you weather info of place you search.
 <img src="https://github.com/kr123Manish/weather_scrapper/blob/main/code/1.png" width="30%"></img>
 <img src="https://github.com/kr123Manish/weather_scrapper/blob/main/code/3.png" width="31%"></img>
@@ -33,5 +33,5 @@
 - If yes then for that city we take info of  weather descriotion,temperature,and speed if you can add or extract more info also refer <a href="https://openweathermap.org/current">More...</a>
 - If city could not found then error message appears.
 
-## <a href="http://weather-info-com.stackstaging.com/">Click here for take Demo</a>
+<!-- ## <a href="http://weather-info-com.stackstaging.com/">Click here for take Demo</a> -->
 ### For complete source code <a href="https://github.com/kr123Manish/weather_scrapper/tree/main/code">click here...</a>
