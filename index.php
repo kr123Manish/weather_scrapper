@@ -2,7 +2,7 @@
  
 
   if($_GET['city']){
-    $urlContents= file_get_contents("https://api.openweathermap.org/data/2.5/weather?q=".$_GET['city']."&appid=Your api key");
+    $urlContents= file_get_contents("https://api.openweathermap.org/data/2.5/weather?q=".$_GET['city']."&appid=b6aa69f2677aeb08cc3c3236adb8c967");
     //convert into array.
     $weatherArray=json_decode($urlContents,true);
     // print_r($weatherArray);
@@ -32,7 +32,7 @@
     
     HTML{
         
-        background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.1)),url('https://github.com/kr123Manish/weather_scrapper/blob/main/code/bg.jpg');
+        background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.1)),url('bg.jpg');
         width: 100%;
         height: 100vh;
         background-size:cover;
