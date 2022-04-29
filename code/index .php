@@ -53,7 +53,7 @@
     .container{
         
         text-align: center;
-        width:25%;
+        width:400px;
         }
 
     #company_data{
